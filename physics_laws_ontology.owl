@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:physics="http://test.org/physics#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://test.org/physics#ThermalExpansion_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Expands</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#Hint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#Answer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfConservationOfEnergy_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to energy when a pendulum swings?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#LawOfConservationOfEnergy_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#LawOfConservationOfEnergy_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfConservationOfEnergy">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#LawOfConservationOfEnergy_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#LawOfConservationOfEnergy_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsSecondLaw_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6N</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfGravitation_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to the gravitational force when the distance doubles?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#LawOfGravitation_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#LawOfGravitation_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#OhmsLaw_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The current through a conductor is directly proportional to the voltage across it and inversely proportional to the resistance (V = IR).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#OhmsLaw">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#OhmsLaw_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#OhmsLaw_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ThermalExpansion_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to a metal rod when it is heated?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#ThermalExpansion_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#ThermalExpansion_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfReflection_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to light when it strikes a mirror at an angle of 30°?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#LawOfReflection_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#LawOfReflection_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsThirdLaw_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens when you push against a wall?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#NewtonsThirdLaw_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#NewtonsThirdLaw_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfGravitation_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remember the inverse square law.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsFirstLaw">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#NewtonsFirstLaw_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#NewtonsFirstLaw_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ThermalExpansion_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substances expand when heated and contract when cooled.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#SnellsLaw_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about how light bends when moving to a denser medium.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsFirstLaw_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#OhmsLaw_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the voltage is 12V and the resistance is 4 ohms, what is the current?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#OhmsLaw_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#OhmsLaw_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ArchimedesPrinciple_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Why do objects float in water?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#ArchimedesPrinciple_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#ArchimedesPrinciple_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfReflection">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#LawOfReflection_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#LawOfReflection_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ArchimedesPrinciple_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about the buoyant force.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#hasHint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:range rdf:resource="http://test.org/physics#Hint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#SnellsLaw_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to light as it enters water from air at an angle?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#SnellsLaw_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#SnellsLaw_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsSecondLaw_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use the formula F = ma.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#Example">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ArchimedesPrinciple_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buoyancy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsSecondLaw_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If a 2 kg object accelerates at 3 m/s², what is the force?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#NewtonsSecondLaw_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#NewtonsSecondLaw_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfGravitation">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#LawOfGravitation_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#LawOfGravitation_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfReflection_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The angle of incidence is equal to the angle of reflection.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ThermalExpansion_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about the molecular vibrations.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsThirdLaw_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For every action, there is an equal and opposite reaction.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#hasQuestion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <rdfs:range rdf:resource="http://test.org/physics#Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#hasAnswer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:range rdf:resource="http://test.org/physics#Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsThirdLaw_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opposite</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#SnellsLaw_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bends</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfConservationOfEnergy_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about potential and kinetic energy conversion.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsFirstLaw_Question">
+    <rdf:type rdf:resource="http://test.org/physics#Question"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What happens to an object at rest when no force acts on it?</rdfs:label>
+    <physics:hasHint rdf:resource="http://test.org/physics#NewtonsFirstLaw_Hint"/>
+    <physics:hasAnswer rdf:resource="http://test.org/physics#NewtonsFirstLaw_Answer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ArchimedesPrinciple_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body immersed in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsSecondLaw_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Force equals mass times acceleration (F = ma).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsFirstLaw_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about objects remaining stationary.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfConservationOfEnergy_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy cannot be created or destroyed; it can only change forms.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ArchimedesPrinciple">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#ArchimedesPrinciple_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#ArchimedesPrinciple_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsThirdLaw">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#NewtonsThirdLaw_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#NewtonsThirdLaw_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#OhmsLaw_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use the formula I = V/R.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#Question">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#PhysicsConcept">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfReflection_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30°</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfReflection_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remember the reflection angle equals the incidence angle.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#hasExample">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <rdfs:range rdf:resource="http://test.org/physics#Example"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsThirdLaw_Hint">
+    <rdf:type rdf:resource="http://test.org/physics#Hint"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Think about the reaction of the wall.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfGravitation_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Every mass attracts every other mass with a force proportional to their masses and inversely proportional to the square of the distance between them.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#OhmsLaw_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfGravitation_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreases</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsFirstLaw_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An object at rest stays at rest unless acted upon by an external force.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#SnellsLaw">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#SnellsLaw_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#SnellsLaw_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#ThermalExpansion">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#ThermalExpansion_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#ThermalExpansion_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#NewtonsSecondLaw">
+    <rdf:type rdf:resource="http://test.org/physics#PhysicsConcept"/>
+    <physics:hasExample rdf:resource="http://test.org/physics#NewtonsSecondLaw_Example"/>
+    <physics:hasQuestion rdf:resource="http://test.org/physics#NewtonsSecondLaw_Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#SnellsLaw_Example">
+    <rdf:type rdf:resource="http://test.org/physics#Example"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ratio of the sines of the angles of incidence and refraction is constant for a given pair of media.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://test.org/physics#LawOfConservationOfEnergy_Answer">
+    <rdf:type rdf:resource="http://test.org/physics#Answer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternates</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
